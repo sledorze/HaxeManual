@@ -8,7 +8,7 @@ For performance reasons, the Haxe compiler does not enforce any overflow behavio
 
  * C++, Java, C#, Neko: 32-bit integers, with usual overflow practices 
  * Flash, AVM2: 32-bit integers, but higher integers are memory boxed
- * PHP JS Flash 8: No native **Int** type.  Overflows will occur if they reach their float limit (2<sup>52<sup>).
+ * PHP JS Flash 8: No native **Int** type.  Overflows will occur if they reach their float limit (2<sup>52</sup>).
 
 
 

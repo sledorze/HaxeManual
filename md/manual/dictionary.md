@@ -5,7 +5,7 @@ The AST is the result of **parsing** Haxe code into a typed structure. This stru
 An **accessor method** (or short **accessor**) for a field named `field` of type `T` is a **getter** named `get_field` of type `Void->T` or a **setter** named `set_field` of type `T->T`.
 
 ##### Bool
-Represents a value which can be either **true** or **false**
+Represents a value which can be either **true** or **false**.
 
 ##### Class Field
 A class field is a variable, property or method of a class which can either be static or non-static. Non-static fields are referred to as **member** fields, so we speak of e.g. a **static method** or a **member variable**.
