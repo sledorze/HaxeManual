@@ -1,6 +1,6 @@
 ## 5 Expressions
 
-Expressions in haxe define what a program **does**. Most expressions are found in the body of a [method](class-field-method.md), where they are combined to express what that method should do. This section explains the different kinds of expressions. Some definitions help here:
+Expressions in Haxe define what a program **does**. Most expressions are found in the body of a [method](class-field-method.md), where they are combined to express what that method should do. This section explains the different kinds of expressions. Some definitions help here:
 
 > ##### Define: Name
 >

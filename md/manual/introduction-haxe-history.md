@@ -1,6 +1,6 @@
 ## 1.4 History
 
-The Haxe project started on 22 October 2005 as a successor to the **Motion-Twin Action Script Compiler**, MTASC. French developer **Motion-Twin** had developed MTASC as a popular ActionScript 2 compiler, and the next logical step for them was to design their very own programming language; thus, giving birth to haxe.
+The Haxe project started on 22 October 2005 as a successor to the **Motion-Twin Action Script Compiler**, MTASC. French developer **Motion-Twin** had developed MTASC as a popular ActionScript 2 compiler, and the next logical step for them was to design their very own programming language; thus, giving birth to Haxe.
 
 Being spelled **haXe** back then, its beta was released in February 2006 with the first supported targets being AVM-bytecode and Motion-Twin's own **Neko** virtual machine.
 
@@ -14,7 +14,7 @@ Just as with Haxe 1, what followed were several months of stability releases. In
 
 After the release of 2.09, **Simon Krajewski** joined the team and work towards Haxe 3 began. Furthermore, **Cauê Waneck**'s Java and C# targets found their way into the Haxe builds. It was then decided to make one final Haxe 2 release, which happened in July 2012 with the release of Haxe 2.10.
 
-In late 2012, the haxe 3 switch was flipped and the Haxe compiler team, now backed by the newly established **Haxe Foundation**, focused on this next major version. Haxe 3 was subsequently released in May 2013.
+In late 2012, the Haxe 3 switch was flipped and the Haxe Compiler team, now backed by the newly established **Haxe Foundation**, focused on this next major version. Haxe 3 was subsequently released in May 2013.
 
 ---
 

@@ -2,7 +2,7 @@
 
 > ##### Define: nullable
 >
-> A type in haxe is considered **nullable** if `null` is a valid value for it.
+> A type in Haxe is considered **nullable** if `null` is a valid value for it.
 
 
 It is common for programming languages to have a single, clean definition for nullability. However, Haxe has to find a compromise in this regard. The reason for this is obvious when looking at the nature of Haxe's target languages: While some of them allow and, in fact, default to `null` for anything, others do not even allow `null` for certain types. This necessitates the distinction of two types of target languages:
@@ -13,7 +13,7 @@ It is common for programming languages to have a single, clean definition for nu
 
 > ##### Define: Dynamic target
 >
-> Dynamic targets are more lenient with their types and allow *null* values for basic types. They consist of JavaScript, PHP, neko and Flash 6-8.
+> Dynamic targets are more lenient with their types and allow `null` values for basic types. They consist of JavaScript, PHP, neko and Flash 6-8.
 
 
 There is nothing to worry about when working with `null` on dynamic targets, but static ones may require some thought. For starters, basic types are initialized to these values:
@@ -21,11 +21,11 @@ There is nothing to worry about when working with `null` on dynamic targets, but
 
 
 * `Int`: `0`
-* `Float`: `NaN` on Flash 9, `0.0` on other static targets
+* `Float`: `NaN` on Flash 9+, `0.0` on other static targets
 * `Bool`: `false`
 
 
-As a consequence, the Haxe compiler does not allow the assignment of `null` to a basic type on static targets. In order to achieve this, the basic type has to be wrapped as `Null<T>`:
+As a consequence, the Haxe Compiler does not allow the assignment of `null` to a basic type on static targets. In order to achieve this, the basic type has to be wrapped as `Null<T>`:
 
 ```haxe
 var a:Int = null; // error on static platforms

@@ -9,3 +9,5 @@ Older browsers (Internet Explorer 7, for instance) may not have native **JSON** 
 ---
 
 Previous section: [Encoding JSON](std-Json-encoding.md)
+
+Next section: [Target Details](target-details.md)

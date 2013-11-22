@@ -1,13 +1,13 @@
 ## 9 Macros
 
-Macros are without a doubt the most advanced feature in haxe. They are often perceived as dark magic that only a select few are capable of mastering, yet there is nothing magical (and certainly nothing dark) about them.
+Macros are without a doubt the most advanced feature in Haxe. They are often perceived as dark magic that only a select few are capable of mastering, yet there is nothing magical (and certainly nothing dark) about them.
 
 > ##### Define: Abstract Syntax Tree (AST)
 >
-> The AST is the result of **parsing** Haxe code into a typed structure. This structure is exposed to macros through the types defined in the file `haxe/macro/Expr.hx` of the Haxe standard library.
+> The AST is the result of **parsing** Haxe code into a typed structure. This structure is exposed to macros through the types defined in the file `haxe/macro/Expr.hx` of the Haxe Standard Library.
 
 
-A basic macro is a **syntax-transformation**. It receives zero or more [expressions](expression.md) and also returns an expression. If a macro is called, it effectively inserts code at the place it was called from. In that respect, it could be compared to a preprocessor like `#define` in C++, but a haxe macro is not a textual replacement tool.
+A basic macro is a **syntax-transformation**. It receives zero or more [expressions](expression.md) and also returns an expression. If a macro is called, it effectively inserts code at the place it was called from. In that respect, it could be compared to a preprocessor like `#define` in C++, but a Haxe macro is not a textual replacement tool.
 
 We can identify different kinds of macros, which are run at specific compilation stages:
 

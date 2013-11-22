@@ -1,9 +1,5 @@
 ## 2.8 Abstract
 
->TODO: @:enum and @:expose
-
-
-
 An abstract type is a type which is, at runtime, actually a different type. It is a compile-time feature which defines types "over" concrete types in order to modify or augment their behavior:
 
 ```haxe

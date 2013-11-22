@@ -19,9 +19,6 @@ class Main {
 ```
 Implementing `Dynamic` does not satisfy the requirements of other implemented interfaces. The expected fields still have to be implemented explicitly.
 
-
->TODO: resolve()
-
 ---
 
 Previous section: [Dynamic with Type Parameter](types-dynamic-with-type-parameter.md)

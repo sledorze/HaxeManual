@@ -22,7 +22,7 @@ class ConditionalCompilation {
 	}
 }
 ```
-Compiling this without any flags will leave only the `trace("ok");` line in the body of the `main` method. The other branches are discarded while parsing the file. As a consequence, these branches must still contain valid haxe syntax, but the code is not type-checked.
+Compiling this without any flags will leave only the `trace("ok");` line in the body of the `main` method. The other branches are discarded while parsing the file. As a consequence, these branches must still contain valid Haxe syntax, but the code is not type-checked.
 
 The conditions after `#if` and `#elseif` allow the following expressions:
 
@@ -35,7 +35,7 @@ The conditions after `#if` and `#elseif` allow the following expressions:
 * Parentheses `()` can be used to group expressions as usual.
 
 
-An exhaustive list of all built-in defines can be obtained by invoking the haxe compiler with the `--help-defines` argument.
+An exhaustive list of all built-in defines can be obtained by invoking the Haxe Compiler with the `--help-defines` argument.
 
 ---
 

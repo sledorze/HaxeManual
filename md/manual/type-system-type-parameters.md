@@ -1,6 +1,6 @@
 ## 3.2 Type Parameters
 
-Haxe allows parametrization of a number of types, as well as [class fields](class-field.md) and [enum constructors](types-enum-constructor.md). Type parameters are defined by enclosing comma-separated type parameter names in angle brackets `<>`. A simple example from the standard library is `Array`:
+Haxe allows parametrization of a number of types, as well as [class fields](class-field.md) and [enum constructors](types-enum-constructor.md). Type parameters are defined by enclosing comma-separated type parameter names in angle brackets `<>`. A simple example from the Haxe Standard Library is `Array`:
 
 ```haxe
 class Array<T> {
@@ -25,7 +25,7 @@ Parameter on  | Bound upon  | Notes
 Class  | instantiation  | Can also be bound upon member field access. 
 Enum  | instantiation  | 
 Enum Constructor  | instantiation  | 
-Function  | invocation  | Allowed for methods and named lvalue closures. 
+Function  | invocation  | Allowed for methods and named local lvalue functions. 
 Structure  | instantiation  | 
  
 

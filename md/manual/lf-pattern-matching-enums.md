@@ -1,6 +1,6 @@
 ## 6.3.2 Enum matching
 
-As with haxe 2, enums can be matched by their constructors in a natural way. With haxe 3 pattern matching, this match can now be "deep":
+As with Haxe 2, enums can be matched by their constructors in a natural way. With Haxe 3 pattern matching, this match can now be "deep":
 
 ```haxe
 var myTree = Node(Leaf("foo"), Node(Leaf("bar"), Leaf("foobar")));

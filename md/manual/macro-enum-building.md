@@ -10,9 +10,6 @@ Building [enums](types-enum-instance.md) is analogous to building classes with a
 
 
 
->TODO: Check if we can build GADTs this way.
-
-
 
 ```haxe
 import haxe.macro.Context;

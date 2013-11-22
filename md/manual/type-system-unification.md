@@ -1,10 +1,6 @@
 ## 3.5 Unification
 
->TODO: Mention toString()/String conversion somewhere in this chapter.
-
-
-
-Unification is the heart of the type system and contributes immensely to the robustness of haxe programs. It describes the process of checking if a type is compatible to another type.
+Unification is the heart of the type system and contributes immensely to the robustness of Haxe programs. It describes the process of checking if a type is compatible to another type.
 
 > ##### Define: Unification
 >

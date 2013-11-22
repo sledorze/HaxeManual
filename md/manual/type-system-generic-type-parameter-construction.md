@@ -5,7 +5,7 @@
 > A type parameter is said to be generic if its containing class or method is generic.
 
 
-With normal type parameter, it is not possible to construct them, i.e. `new T()` is a compiler error. This is because haxe generates only a single function and the construct then makes no sense. This is different when the type parameter is generic: Since we know that the compiler will generate a distinct function for each type parameter combination, it is possible to replace the `T` `new T()` with the real type.
+With normal type parameter, it is not possible to construct them, i.e. `new T()` is a compiler error. This is because Haxe generates only a single function and the construct then makes no sense. This is different when the type parameter is generic: Since we know that the compiler will generate a distinct function for each type parameter combination, it is possible to replace the `T` `new T()` with the real type.
 
 ```haxe
 typedef Constructible = {

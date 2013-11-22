@@ -1,6 +1,6 @@
 ## 2.3.2 Inheritance
 
-Classes may inherit from other classes, which in haxe is denoted by the `extends` keyword:
+Classes may inherit from other classes, which in Haxe is denoted by the `extends` keyword:
 
 ```haxe
 class Point3 extends Point {
@@ -20,7 +20,7 @@ The code above is very similar to the original `Point` class, with two new const
  * `super(x, y)` is the call to the constructor of the parent class, in this case `Point.new`
 
 
-It is not necessary for child classes to define their own constructors, but if they do a call to `super()` is mandatory. Unlike some other object-oriented languages, this call can appear anywhere in the constructor code and does not have to be the first expression.
+It is not necessary for child classes to define their own constructors, but if they do, a call to `super()` is mandatory. Unlike some other object-oriented languages, this call can appear anywhere in the constructor code and does not have to be the first expression.
 
 A class may override [methods](class-field-method.md) of its base class, which requires the explicit `override` keyword. The effects and restrictions of this are detailed in [Overriding Methods](class-field-overriding.md).
 

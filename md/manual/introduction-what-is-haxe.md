@@ -19,7 +19,7 @@ Java  | Sourcecode  | Desktop, Server
 C#  | Sourcecode  | Desktop, Mobile, Server 
  
 
-The remainder of section [Introduction](introduction.md) gives a brief overview of what a Haxe program looks like, and how haxe evolved since its inception in 2005.
+The remainder of section [Introduction](introduction.md) gives a brief overview of what a Haxe program looks like, and how Haxe evolved since its inception in 2005.
 
 [Types](types.md) introduces the seven different kinds of types in Haxe and how they interact with each other. The discussion of types is continued in [Type System](type-system.md), where features like **unification**, **type parameters** and **type inference** are explained.
 

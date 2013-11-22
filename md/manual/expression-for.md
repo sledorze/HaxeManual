@@ -14,6 +14,6 @@ The type of a `for` expression is always `Void`, meaning it has no value and can
 
 ---
 
-Previous section: [Function Call](expression-function-call.md)
+Previous section: [Inline constructors](expression-inline-constructor.md)
 
 Next section: [if](expression-if.md)

@@ -39,12 +39,12 @@ It is worth noting that using anonymous structures does not subvert the typing s
 ```haxe
 class Test {
 	static public function main() {
-		var point = { x: 0.0, y: 12.0};
+		var point = { x: 0.0, y: 12.0 };
 		point.z; // { y : Float, x : Float } has no field z
 	}
 }
 ```
-The error message indicates that the compiler knows the type of `point`: It is a structure with fields `x` and `y` of type `Float`. Since it has no field `z` the access fails.
+The error message indicates that the compiler knows the type of `point`: It is a structure with fields `x` and `y` of type `Float`. Since it has no field `z`, the access fails.
 The type of `point` is known through [type inference](type-system-type-inference.md), which thankfully saves us from using explicit types for local variables. However, if `point` was a field, explicit typing would be necessary:
 
 ```haxe

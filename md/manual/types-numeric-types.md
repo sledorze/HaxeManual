@@ -2,7 +2,7 @@
 
 > ##### Define: Float
 >
-> Represents a double-precision IEEE 64bit floating point number.
+> Represents a double-precision IEEE 64-bit floating point number.
 
 > ##### Define: Int
 >

@@ -1,4 +1,4 @@
-## 10.2.4 Map
+## 10.2.5 Map
 
 A `Map` is a container composed of **key**, **value** pairs.  A `Map` is also commonly referred to as an associative array, dictionary, or symbol table.  The following code gives a short example of working with maps:
 

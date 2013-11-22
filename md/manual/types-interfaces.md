@@ -13,10 +13,10 @@ The syntax is similar to classes, with the following exceptions:
 
 * `interface` keyword is used instead of `class` keyword
 * functions do not have any expressions
-* any field must have an explicit type
+* every field must have an explicit type
 
 
-Interfaces, unlike structural subtyping, describe a **static relation** between classes. A given class is only considered to be compatible to an interface if it explicitely states so:
+Interfaces, unlike structural subtyping, describe a **static relation** between classes. A given class is only considered to be compatible to an interface if it explicitly states so:
 
 ```haxe
 class Point implements Printable { }

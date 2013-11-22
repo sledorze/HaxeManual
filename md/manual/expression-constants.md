@@ -1,6 +1,6 @@
 ## 5.2 Constants
 
-The haxe syntax supports the following constants:
+The Haxe syntax supports the following constants:
 
 
 

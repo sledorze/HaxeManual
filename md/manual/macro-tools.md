@@ -15,7 +15,7 @@ The Haxe Standard Library comes with a set of tool-classes to simplify working w
 >
 > We learned about static extensions that using a **module** implies that all its types are brought into static extension context. As it turns out, such a type can also be a [typedef](type-system-typedef.md) to another type. The compiler then considers this type part of the module, and extends static extension accordingly.
 > 
-> This "trick" was first used in Juraj Kirchheim's **tinkerbell** library for exactly the same purpose. Tinkerbell provided many useful macro tools long before they made it into the Haxe compiler and Haxe Standard Library. It remains the primary library for additional macro tools and offers other useful functionality as well.
+> This "trick" was first used in Juraj Kirchheim's **tinkerbell** library for exactly the same purpose. Tinkerbell provided many useful macro tools long before they made it into the Haxe Compiler and Haxe Standard Library. It remains the primary library for additional macro tools and offers other useful functionality as well.
 
 ---
 

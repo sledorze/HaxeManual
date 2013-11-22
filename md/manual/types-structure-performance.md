@@ -4,6 +4,6 @@ Using structures and by extension [structural subtyping](type-system-structural-
 
 ---
 
-Previous section: [Optional Fields](types-structure-optional-fields.md)
+Previous section: [Class Notation for Structure Types](types-structure-class-notation.md)
 
 Next section: [Function](types-function.md)

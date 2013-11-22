@@ -7,7 +7,7 @@ return;
 return expression;
 ```
 
-It leaves the control-flow of the innermost function it is declared in, which has to be distinguished when [closures](expression-closure.md) are involved:
+It leaves the control-flow of the innermost function it is declared in, which has to be distinguished when [local functions](expression-function.md) are involved:
 
 ```haxe
 function f1() {
@@ -19,7 +19,7 @@ function f1() {
 }
 ```
 
-The `return` leaves closure `f2`, but not `f1`, meaning `expression` is still evaluated.
+The `return` leaves local function `f2`, but not `f1`, meaning `expression` is still evaluated.
 
 If `return` is used without a value expression, the typer ensures that the return type of the function it returns from is of `Void`. If it has a value expression, the typer [unifies](type-system-unification.md) its type with the return type (explicitly given or inferred by previous `return` expressions) of the function it returns from.
 

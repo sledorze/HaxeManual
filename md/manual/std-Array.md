@@ -34,15 +34,9 @@ class ArrayExample {
 ```
 
 
->TODO: make sure this is true about static targets
-
-
 In Haxe, arrays are unbounded:  accessing or assigning an index outside the current size of the array does NOT result in an exception.  When assigning, the array grows and the inbetween elements are assigned **null** (or the **static target** alternative: see [Nullability](types-nullability.md) for more details).  When accessing, **null** is returned.  Accessing a negative index in an array also returns **null**.
 
 Arrays can be **iterated over** using a [for](expression-for.md) loop.  However removing elements while iterating over an array is error prone (but just fine with a **List**).
-
-
->TODO: Maybe we should introduce \\ api{type name}
 
 
 See [Array Declaration](expression-array-declaration.md) for array initialization.  New arrays can also be created by [Array Comprehension](lf-array-comprehension.md).  The [http://api.haxe.org/Array.html](Array API) has details about Array methods.
@@ -51,4 +45,4 @@ See [Array Declaration](expression-array-declaration.md) for array initializatio
 
 Previous section: [Data Structures](std-ds.md)
 
-Next section: [List](std-List.md)
+Next section: [Vector](std-vector.md)

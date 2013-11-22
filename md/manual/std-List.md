@@ -1,9 +1,6 @@
-## 10.2.2 List
+## 10.2.3 List
 
 A `List` is a **collection** for storing elements.  On the surface, a list is similar to an [Array](std-Array.md).  However, the underlying implementation is very different.  This results in several functional differences:
-
->TODO: I hope none of these are lies -C 
-
 
 
 
@@ -30,6 +27,6 @@ class ListExample {
 
 ---
 
-Previous section: [Array](std-Array.md)
+Previous section: [Vector](std-vector.md)
 
 Next section: [GenericStack](std-GenericStack.md)

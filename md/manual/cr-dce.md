@@ -6,7 +6,7 @@ DCE has three modes which are set when invoking the command line:
 
 
 
-* -dce std: Only classes in the haxe standard library are affected by DCE. This is the default setting on all targets but Javascript.
+* -dce std: Only classes in the Haxe Standard Library are affected by DCE. This is the default setting on all targets but Javascript.
 * -dce no: No DCE is performed.
 * -dce full: All classes are affected by DCE. This is the default setting when targeting Javascript.
 
@@ -24,7 +24,7 @@ The compiler automatically defines the flag `dce` with a value of either `"std"`
 
 > ##### Trivia: DCE-rewrite
 >
-> DCE was originally implemented in haxe 2.07. This implementation considered a function to be used when it was explicitly typed. The problem with that was that several features, most importantly interfaces, would cause all class fields to be typed in order to verify type-safety. This effectively subverted DCE completely, prompting the rewrite for haxe 2.10.
+> DCE was originally implemented in Haxe 2.07. This implementation considered a function to be used when it was explicitly typed. The problem with that was that several features, most importantly interfaces, would cause all class fields to be typed in order to verify type-safety. This effectively subverted DCE completely, prompting the rewrite for Haxe 2.10.
 
 > ##### Trivia: DCE and try.haxe.org
 >

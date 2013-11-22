@@ -2,7 +2,7 @@
 
 > ##### Define: Void
 >
-> Void denote the absence of a type. It is used to express that something (usually a function) has no value.
+> Void denotes the absence of a type. It is used to express that something (usually a function) has no value.
 
 
 `Void` is a special case in the type system because it is not actually a type. It is used to express the absence of a type, which applies mostly to function arguments and return types.

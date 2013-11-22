@@ -20,7 +20,7 @@ Semantically, this enum describes a color which is either red, green, blue or a 
 * as well as `Rgb` taking three `Int` arguments named `r`, `g` and `b`.
 
 
-The haxe type system provides a type which unifies with all enum types:
+The Haxe type system provides a type which unifies with all enum types:
 
 > ##### Define: Enum
 >

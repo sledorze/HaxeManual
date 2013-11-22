@@ -1,10 +1,5 @@
 ## 2.1.3 Numeric Operators
 
->TODO: make sure the types are right for inc, dec, negate, and bitwise negate
-
-
-
-
 ##### Arithmetic
  
  Operator  | Operation  | Argument 1  | Argument 2  | Return 
@@ -38,7 +33,7 @@
  
  Operator  | Operation  | Argument 1  | Argument 2  | Return 
  --- | --- | --- | --- | --- | --- | --- | --- | ---
-<code>~</code>  | `negation`  | `Float/Int`  | `N/A`  | `Bool` 
+<code>~</code>  | negation  | `Float/Int`  | `N/A`  | `Bool` 
 <code>==</code>  | equal  | `Float/Int`  | `Float/Int`  | `Bool` 
 <code>!=</code>  | not equal  | `Float/Int`  | `Float/Int`  | `Bool` 
 <code>&lt;</code>  | less than  | `Float/Int`  | `Float/Int`  | `Bool` 

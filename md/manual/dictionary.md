@@ -1,5 +1,5 @@
 ##### Abstract Syntax Tree (AST)
-The AST is the result of **parsing** Haxe code into a typed structure. This structure is exposed to macros through the types defined in the file `haxe/macro/Expr.hx` of the Haxe standard library.
+The AST is the result of **parsing** Haxe code into a typed structure. This structure is exposed to macros through the types defined in the file `haxe/macro/Expr.hx` of the Haxe Standard Library.
 
 ##### Accessor method
 An **accessor method** (or short **accessor**) for a field named `field` of type `T` is a **getter** named `get_field` of type `Void->T` or a **setter** named `set_field` of type `T->T`.
@@ -29,19 +29,19 @@ A [compound type](dictionary.md#compound-type) is considered covariant if its co
 Definition description
 
 ##### Dynamic target
-Dynamic targets are more lenient with their types and allow *null* values for basic types. They consist of JavaScript, PHP, neko and Flash 6-8.
+Dynamic targets are more lenient with their types and allow `null` values for basic types. They consist of JavaScript, PHP, neko and Flash 6-8.
 
 ##### Enum
 This type is compatible with all enum types. At compile-time, `Enum<T>` can be considered to be the common base type of all enum types. However, this relation is not reflected in generated code.
 
 ##### EnumValue
-EnumValue is a special type which unifies with all enum instances. It is used by the standard library to provide some operations for all enum instances, and can be employed in user-code accordingly.
+EnumValue is a special type which unifies with all enum instances. It is used by the Haxe Standard Library to provide some operations for all enum instances, and can be employed in user-code accordingly.
 
 ##### Expected Type
 Expected types occur when the type of an expression is known before that expression has been typed, e.g. because the expression is argument to a function call. They can influence typing of that expression through what is called [top-down inference](type-system-top-down-inference.md).
 
 ##### Float
-Represents a double-precision IEEE 64bit floating point number.
+Represents a double-precision IEEE 64-bit floating point number.
 
 ##### Generic Type Parameter
 A type parameter is said to be generic if its containing class or method is generic.
@@ -64,7 +64,7 @@ Represents an integral number.
 The macro context is the environment in which the macro is executed. Depending on the macro type, it can be considered to be a class being built or a function being typed. Contextual information can be obtained through the `haxe.macro.Context` API.
 
 ##### Module
-All haxe code is organized in modules, which are addressed using paths. In essence, each .hx file represents a module which may contain several types. A type may be `private`, in which case only its containing module can access it.
+All Haxe code is organized in modules, which are addressed using paths. In essence, each .hx file represents a module which may contain several types. A type may be `private`, in which case only its containing module can access it.
 
 ##### Name
 A general name may refer to
@@ -78,7 +78,7 @@ A general name may refer to
 
 
 ##### nullable
-A type in haxe is considered **nullable** if `null` is a valid value for it.
+A type in Haxe is considered **nullable** if `null` is a valid value for it.
 
 ##### Physical field
 A field is considered to be **physical** if it is either
@@ -119,7 +119,7 @@ The underlying type of an abstract is the type which is used to represent said a
 Unification between two types A and B is a directional process which answers the question if A **can be assigned to** B. It may **mutate** either type if it is or has a [monomorph](types-monomorph.md).
 
 ##### Void
-Void denote the absence of a type. It is used to express that something (usually a function) has no value.
+Void denotes the absence of a type. It is used to express that something (usually a function) has no value.
 
 ##### Write Access
 A write access to a field occurs when a [field access expression](expression-field-access.md) is assigned a value in the form of `obj.field = value`. It may also occur in combination with [read access](dictionary.md#read-access) for special assignment operators such as `+=` in expressions like `obj.field += value`.
